@@ -1,0 +1,45 @@
+header {
+    width: 100%;
+    background-image: linear-gradient(90deg, #f5fcfc 78%, #4ec0b3 78%);
+}
+img {
+    display: inline-block;
+}
+
+img.brand {
+    width: 170px;
+    height: 110px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 15px;
+    background: transparent;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #406d69;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+ul li:last-child {
+    margin-left: auto;
+    margin-right: 15px;
+    background-color: #FFF;
+    color: #406d69;
+    padding: 15px 9px;
+    border-radius: 5px;
+}
+
+ul li a:not(:has(img)):hover {
+    border-color: #406d69;
+}
