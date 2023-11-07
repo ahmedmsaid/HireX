@@ -1,0 +1,9 @@
+<ul>
+  <li [ngClass]="{ 'active-button': selectedCategory === 'all' }"><button (click)="categorySelected('all')" type="button">All Categories</button></li>
+  <li [ngClass]="{ 'active-button': selectedCategory === 'Creative & Art' }"><button (click)="categorySelected('Creative & Art')" type="button">Creative & art</button></li>
+  <li [ngClass]="{ 'active-button': selectedCategory === 'Programming & IT' }"><button (click)="categorySelected('Programming & IT')" type="button">Programming & IT</button></li>
+  <li [ngClass]="{ 'active-button': selectedCategory === 'Corprate' }"><button (click)="categorySelected('Corprate')" type="button">Corprate</button></li>
+  <li [ngClass]="{ 'active-button': selectedCategory === 'Finance & Accounting' }"><button (click)="categorySelected('Finance & Accounting')" type="button">Finance & Accounting</button></li>
+  <li [ngClass]="{ 'active-button': selectedCategory === 'Medical' }"><button (click)="categorySelected('Medical')" type="button">Medical</button></li>
+  <li [ngClass]="{ 'active-button': selectedCategory === 'Marketing' }"><button (click)="categorySelected('Marketing')" type="button">Marketing</button></li>
+</ul>

@@ -1,6 +1,95 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+    "jobs": [
+      {
+        "id": 1,
+        "category": "Programming & IT",
+        "position": "Direct Quality Designer",
+        "place": "North Briellechester",
+        "type": "Full time",
+        "company": "Powlowski - Bradtke",
+        "date": "2023-08-28T18:00:28.110Z"
+      },
+      {
+        "id": 9,
+        "category": "Creative & Art",
+        "position": "Direct Quality Designer",
+        "place": "North Briellechester",
+        "type": "Full time",
+        "company": "Powlowski - Bradtke",
+        "date": "2023-08-28T18:00:28.110Z"
+      },
+      {
+        "id": 10,
+        "category": "Creative & Art",
+        "position": "Direct Quality Designer",
+        "place": "North Briellechester",
+        "type": "Full time",
+        "company": "Powlowski - Bradtke",
+        "date": "2023-08-28T18:00:28.110Z"
+      },
+      {
+        "id": 2,
+        "category": "Corprate",
+        "position": "Product Applications Liaison",
+        "place": "East Sterling",
+        "type": "Full time",
+        "company": "Cormier and Sons",
+        "date": "2023-02-28T13:28:49.300Z"
+      },
+      {
+        "id": 3,
+        "category": "Finance & Accounting",
+        "position": "Product Research Administrator",
+        "place": "South Thaddeusport",
+        "type": "Full time",
+        "company": "Legros - Fritsch",
+        "date": "2022-11-16T15:43:04.899Z"
+      },
+      {
+        "id": 4,
+        "category": "Medical",
+        "position": "Regional Division Architect",
+        "place": "Allenfurt",
+        "type": "Full time",
+        "company": "Krajcik Group",
+        "date": "2023-02-21T00:38:36.782Z"
+      },
+      {
+        "id": 5,
+        "category": "Marketing",
+        "position": "Product Configuration Designer",
+        "place": "Madonnaborough",
+        "type": "Full time",
+        "company": "Beahan Group",
+        "date": "2023-08-15T07:09:18.211Z"
+      },
+      {
+        "id": 6,
+        "category": "Programming & IT",
+        "position": "Direct Quality Designer",
+        "place": "North Briellechester",
+        "type": "Full time",
+        "company": "Powlowski - Bradtke",
+        "date": "2023-08-28T18:00:28.110Z"
+      },
+      {
+        "id": 7,
+        "category": "Programming & IT",
+        "position": "Direct Quality Designer",
+        "place": "North Briellechester",
+        "type": "Full time",
+        "company": "Powlowski - Bradtke",
+        "date": "2023-08-28T18:00:28.110Z"
+      },
+      {
+        "id": 8,
+        "category": "Creative & Art",
+        "position": "Direct Quality Designer",
+        "place": "North Briellechester",
+        "type": "Full time",
+        "company": "Powlowski - Bradtke",
+        "date": "2023-08-28T18:00:28.110Z"
+      }
     ],
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }

@@ -1,0 +1,26 @@
+<section>
+  <div class="head">
+    <h2>Discover jobs for you</h2>
+    <p>Browse 200+ Top Jobs In Your Local City.</p>
+  </div>
+  <div class="nav">
+    <nav>
+      <app-jobs-filter (categoryClicked)="filtering($event)"></app-jobs-filter>
+    </nav>
+  </div>
+  <div class="separator">
+    <hr >
+  </div>
+  <div class="jobs">
+    <app-job-card
+      [ngClass]="{ 'fade-in': fade }"
+      *ngFor="let job of filteredJobs"
+      [category]="job.category"
+      [position]="job.position"
+      [place]="job.place"
+      [type]="job.type"
+      [company]="job.company"
+      [date]="job.date"
+    ></app-job-card>
+  </div>
+</section>

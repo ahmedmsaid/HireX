@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+ul li button {
+    text-decoration: none;
+    color: #728b8b;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #728b8b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .3s;
+}
+
+ul li button:hover {
+    border-bottom: 2px solid #31b4a5;
+    color: #31b4a5;
+}
+
+.active-button {
+    border-bottom: 2px solid #31b4a5;
+  }

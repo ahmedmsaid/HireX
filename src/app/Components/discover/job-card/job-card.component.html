@@ -1,0 +1,25 @@
+<div class="card">
+  <div
+    class="category"
+    [ngClass]="{
+      programming: category === 'Programming & IT',
+      corprate: category === 'Corprate',
+      finance: category === 'Finance & Accounting',
+      medical: category === 'Medical',
+      marketing: category === 'Marketing'
+    }"
+  >
+    <p>{{ category }}</p>
+  </div>
+  <div class="position">
+    <p>{{ position }}</p>
+  </div>
+  <div class="place">
+    <span>{{ place }}</span>
+    <span>{{ type }}</span>
+  </div>
+  <div class="employer">
+    <img src="assets/google.png" alt="" /><span>{{ company }}</span
+    ><span>{{ date | date:'shortTime' }}</span>
+  </div>
+</div>

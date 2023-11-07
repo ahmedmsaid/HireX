@@ -1,0 +1,103 @@
+div.card {
+    width: calc(80vw / 3);
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div.card:hover {
+    border-color: #31b4a5;
+}
+
+div.card > * {
+    margin-left: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* div.card .category {
+} */
+
+div.card .category p {
+    display: inline;
+    background-color: #f7e2d6;
+    color: #ee874f;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 1.2em;
+}
+
+div.card .category.programming p {
+    background-color: #cee3ff;
+    color: #5894f2;
+}
+
+div.card .category.corprate p {
+    background-color: #cfc5f8;
+    color: #6a42f2;
+}
+
+div.card .category.finance p{
+    background-color: #cee3ff;
+    color: #5894f2;
+}
+
+div.card .category.medical pre{
+    background-color: #f8fdfb;
+    color: #2eb991;
+}
+div.card .category.marketing p{
+    background-color: #fef4fa;
+    color: #f576bc;
+}
+
+div.card .position {
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+div.card .position:hover {
+    color: #31b4a5;
+}
+
+div.card .place > * {
+    color: #9c9c9c;
+}
+
+div.card .place > *::before {
+    content: url(src/assets/location.png);
+    padding: 0 9px;
+}
+
+div.card .employer {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+div.card .employer img {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    margin-right: 15px;
+}
+
+div.card .employer span {
+    flex: 1 1;
+}
+
+div.card .employer span:last-child {
+    color: #bbbbbb;
+}
+
+
