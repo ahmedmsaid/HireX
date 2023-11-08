@@ -10,6 +10,8 @@ import { JobsFilterComponent } from './Components/discover/jobs-filter/jobs-filt
 import { JobCardComponent } from './Components/discover/job-card/job-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { ReviewComponent } from './Components/review/review.component';
+import { SliderComponent } from './Components/review/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { CommonModule } from '@angular/common';
     DiscoverComponent,
     JobsFilterComponent,
     JobCardComponent,
+    ReviewComponent,
+    SliderComponent,
     HeroSectionComponent
   ],
   imports: [
