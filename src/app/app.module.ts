@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { ReviewComponent } from './Components/review/review.component';
 import { SliderComponent } from './Components/review/slider/slider.component';
+import { PlansComponent } from './Components/plans/plans.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { SliderComponent } from './Components/review/slider/slider.component';
     JobCardComponent,
     ReviewComponent,
     SliderComponent,
+    PlansComponent,
     HeroSectionComponent
   ],
   imports: [

@@ -1,0 +1,123 @@
+section {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text h2 {
+    width: 600px;
+    font-size: 3rem;
+    color: #406d69;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text p {
+    width: 500px;
+    font-size: 1.1rem;
+    color: #697e7c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.plans {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+    flex-wrap: wrap;
+}
+
+.plans__item {
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 30%;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.plans__item > * {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p.plan {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #406d69;
+}
+
+p.price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5ed891;
+}
+
+p.price_2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f27e42;
+}
+
+p.price-3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4294f2;
+}
+
+span {
+    display: block;
+    font-size: initial;
+    color:#697e7c;
+    font-weight: initial;
+}
+
+p.paragraph {
+    width: 80%;
+    font-size: 1.2rem;
+    color: #697e7c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+    line-height: 1.2;
+    margin-top: 5%;
+}
+
+button {
+    padding: 15px 25px;
+    color: #406d69;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #406d69;
+    font-size: 1.5rem;
+    margin-top: 20%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #406d69;
+}
